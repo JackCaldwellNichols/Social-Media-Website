@@ -1,0 +1,17 @@
+.home {
+    padding: 20px 70px;
+}
+
+@media only screen and (max-width: 480px) {
+    .home {
+        padding: 10px;
+       
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .home {
+        padding: 20px;
+       
+    }
+}

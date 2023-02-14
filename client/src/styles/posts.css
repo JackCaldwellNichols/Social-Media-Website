@@ -1,0 +1,12 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+    .posts {
+        width: 350px;
+        margin: auto;
+    }
+}
